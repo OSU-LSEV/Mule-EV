@@ -15,5 +15,5 @@ The module operates:
 3. Converts PWM signals to signals for switching the relays on or off - Ķey On", Reverse/Forward.
 
 The logics of operation is easy readable in comments in ARduino scetch code: 
-https://bitbucket.org/pilotautomotive/woodpecker-detroit-documentation/src/master/PWM_CAN_gateway/Woodpecker_PWM_CAN_GTW_Detroit/Woodpecker_PWM_CAN_GTW_Detroit.ino
+https://github.com/OSU-LSEV/Mule-EV/blob/main/PWM_CAN_gateway/Woodpecker_PWM_CAN_GTW_Oregon/Woodpecker_PWM_CAN_GTW_Oregon.ino
 
