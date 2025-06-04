@@ -9,17 +9,16 @@ Brake nodule is used to convert CAN message to hydrolic braking power.
 Module is configured to operatro on 500Kbps baudrate.
 
 
-The message is used in: https://bitbucket.org/pilotautomotive/woodpecker-detroit-documentation/src/master/PWM_CAN_gateway/Woodpecker_PWM_CAN_GTW_Detroit/Woodpecker_PWM_CAN_GTW_Detroit.ino
+The message is used in: https://github.com/OSU-LSEV/Mule-EV/blob/main/PWM_CAN_gateway/Woodpecker_PWM_CAN_GTW_Oregon/Woodpecker_PWM_CAN_GTW_Oregon.ino
 
-Mapping of important CAN commandes from CAN .dbc files : https://bitbucket.org/pilotautomotive/woodpecker-detroit-documentation/src/master/CAN_docs/Woodpecker_Detroit.DBF and https://bitbucket.org/pilotautomotive/woodpecker-detroit-documentation/src/master/CAN_docs/DBS3001_231010.dbf
+Mapping of important CAN commandes from CAN .dbc files : https://github.com/OSU-LSEV/Mule-EV/blob/main/CAN_docs/Woodpecker_Oregon.DBF  and https://github.com/OSU-LSEV/Mule-EV/blob/main/CAN_docs/DBS3001_231010.dbf 
 ```
 CommandBrake: 0x154
 BrakeErrorMessage: 0x143
 BrakeStatusMessage: 0x142
 
 ```
-Calculations of hydrolic power applied vs CAN DEC to HEX messages are here: https://bitbucket.org/pilotautomotive/woodpecker-detroit-documentation/src/master/Brake_controller/DBS_CAN_messages_calculations.xlsx
-The final predifined messages from https://bitbucket.org/pilotautomotive/woodpecker-detroit-documentation/src/master/PWM_CAN_gateway/Woodpecker_PWM_CAN_GTW_Detroit/Woodpecker_PWM_CAN_GTW_Detroit.ino remote control look like:
+Calculations of hydrolic power applied vs CAN DEC to HEX messages are here: https://github.com/OSU-LSEV/Mule-EV/blob/main/Brake_controller/DBS_CAN_messages_calculations.xlsx The final predifined messages from https://github.com/OSU-LSEV/Mule-EV/blob/main/PWM_CAN_gateway/Woodpecker_PWM_CAN_GTW_Oregon/Woodpecker_PWM_CAN_GTW_Oregon.ino   remote control look like:
 ```
 unsigned char brake1[8] = {0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 unsigned char brake2[8] = {0x01, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00};
