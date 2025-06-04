@@ -20,8 +20,8 @@ Throttle_Status		  0x161
 CommandThrottle		  0x201
 Throttle Init Message 0x00
 ```
-Calculations of voltage vs CAN DEC to HEX messages are here: https://bitbucket.org/pilotautomotive/woodpecker-detroit-documentation/src/master/Steering_controller/RC_PWM_CAN_conversions_Detroit.xlsx
-The final predifined messages from https://bitbucket.org/pilotautomotive/woodpecker-detroit-documentation/src/master/PWM_CAN_gateway/Woodpecker_PWM_CAN_GTW_Detroit/Woodpecker_PWM_CAN_GTW_Detroit.ino remote control look like:
+Calculations of voltage vs CAN DEC to HEX messages are here: https://github.com/OSU-LSEV/Mule-EV/blob/main/Steering_controller/RC_PWM_CAN_conversions_Oregon.xlsx
+The final predifined messages from https://github.com/OSU-LSEV/Mule-EV/blob/main/PWM_CAN_gateway/Woodpecker_PWM_CAN_GTW_Oregon/Woodpecker_PWM_CAN_GTW_Oregon.ino remote control look like:
 ```
 unsigned char accel0[8] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 unsigned char accel1[8] = {0x2E, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
