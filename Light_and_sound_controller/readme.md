@@ -20,4 +20,4 @@ The module operates:
 2. Relays for optional stiop, blinker lamps and headlights;
 3. Horn.
 
-The logics of operation is easy readable in comments in ARduino scetch code: https://bitbucket.org/pilotautomotive/woodpecker-detroit-documentation/src/master/Light_and_sound_controller/LED_woodpecker_final_2023_Detroit/LED_woodpecker_final_2023_Detroit.ino
+The logics of operation is easy readable in comments in ARduino scetch code: https://github.com/OSU-LSEV/Mule-EV/blob/main/Light_and_sound_controller/LED_woodpecker_final_2023_Oregon/LED_woodpecker_final_2023_Oregon.ino
