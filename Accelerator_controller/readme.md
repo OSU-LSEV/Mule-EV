@@ -11,9 +11,9 @@ Module is configured to operatro on 500Kbps baudrate.
 
 In order to start operations of module CAN message: 
 0x00  01 01 00 00 00 00 00 00 should be sent
-The message is used in: https://bitbucket.org/pilotautomotive/woodpecker-detroit-documentation/src/master/PWM_CAN_gateway/Woodpecker_PWM_CAN_GTW_Detroit/Woodpecker_PWM_CAN_GTW_Detroit.ino
+The message is used in: https://github.com/OSU-LSEV/Mule-EV/blob/main/PWM_CAN_gateway/Woodpecker_PWM_CAN_GTW_Oregon/Woodpecker_PWM_CAN_GTW_Oregon.ino
 
-Mapping of important CAN commandes from CAN .dbc files : https://bitbucket.org/pilotautomotive/woodpecker-detroit-documentation/src/master/CAN_docs/ican_4404_Woodpecker_Detroit.DBF
+Mapping of important CAN commandes from CAN .dbc files : https://github.com/OSU-LSEV/Mule-EV/blob/main/CAN_docs/ican_4404_Woodpecker_Oregon.DBF
 ```
 AcceleratorFeedback   0x701
 Throttle_Status		  0x161
