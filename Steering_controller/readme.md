@@ -10,7 +10,7 @@ Steering module is used to convert CAN message to steering angle.
 Module is configured to operate on 500Kbps baudrate.
 
 
-The message is used in: https://bitbucket.org/pilotautomotive/woodpecker-detroit-documentation/src/master/PWM_CAN_gateway/Woodpecker_PWM_CAN_GTW_Detroit/Woodpecker_PWM_CAN_GTW_Detroit.ino
+The message is used in: https://github.com/OSU-LSEV/Mule-EV/blob/main/PWM_CAN_gateway/Woodpecker_PWM_CAN_GTW_Oregon/Woodpecker_PWM_CAN_GTW_Oregon.ino
 
 Mapping of important CAN commandes from CAN .dbc files : https://bitbucket.org/pilotautomotive/woodpecker-detroit-documentation/src/master/CAN_docs/Woodpecker_Detroit.DBF  
 ```
@@ -20,8 +20,8 @@ CommandEPS1: 0x219
 CommandEPS2: 0x220
 
 ```
-Calculations of steering applied as CAN DEC to HEX messages are here: https://bitbucket.org/pilotautomotive/woodpecker-detroit-documentation/src/master/Steering_controller/EPS_CAN_messages_calculation.xlsx and here https://bitbucket.org/pilotautomotive/woodpecker-detroit-documentation/src/master/Steering_controller/Steering_joystick_commands.xlsx
-The final predifined messages from https://bitbucket.org/pilotautomotive/woodpecker-detroit-documentation/src/master/PWM_CAN_gateway/Woodpecker_PWM_CAN_GTW_Detroit/Woodpecker_PWM_CAN_GTW_Detroit.ino remote control look like:
+Calculations of steering applied as CAN DEC to HEX messages are here: https://github.com/OSU-LSEV/Mule-EV/blob/main/Steering_controller/EPS_CAN_messages_calculation.xlsx and here https://github.com/OSU-LSEV/Mule-EV/blob/main/Steering_controller/Steering_joystick_commands.xlsx 
+The final predifined messages from https://github.com/OSU-LSEV/Mule-EV/blob/main/PWM_CAN_gateway/Woodpecker_PWM_CAN_GTW_Oregon/Woodpecker_PWM_CAN_GTW_Oregon.ino  remote control look like:
 ```
 unsigned char steer20[8] = {0x40, 0xFA, 0xCF, 0x39, 0x00, 0x00, 0x00, 0x00};
 unsigned char steer19[8] = {0x40, 0xFA, 0x71, 0x38, 0x00, 0x00, 0x00, 0x00};
